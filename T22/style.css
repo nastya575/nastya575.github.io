@@ -38,7 +38,8 @@ font-size: 40px;
 margin-top: 50px;
 }
 .btn:botton{
-box-shadow: 0 0 10px black}
+box-shadow: 0 0 10px black
+}
 article{
 background:linear-gradient(to right, gray,black);
 height: 400px;
@@ -52,7 +53,7 @@ width: 40%;
 float: left;
 height: 100%;
 color: white;
-}
+} 
 .two{
 width: 60%;
 float: left;
