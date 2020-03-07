@@ -19,14 +19,22 @@
 	opacity: 0.6;
 }
 .anim3:hover{
-	transform: scale ((ox)(oy))
+	transform: scale(1.1);	
 }
-.anim4{
-	
+.anim4:hover{
+		border-radius: 100px;
 }
-.anim5{
-	
+.anim5:hover{
+	transform: rotate(15deg);
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
-.anim6{
-	
+.text{
+	animation-duration: 3s;
+	animation-name: animation;
+	animation-iteration-count:infinite;
+}
+@keyframes animation{
+	0%{transform: rotate(0deg);}
+ 100%{transform: rotate(360deg);}
 }
